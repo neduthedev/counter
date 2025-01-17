@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: brown;
+    color: white;
+    height: 100vh;
+    width: 100%;
+
+}
+.main-header{
+    background-color: antiquewhite;
+    padding: 30px;
+}
+.main-header > ul{
+   
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.main-header > ul >li{
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+.counter-parent{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.button{
+    width: 5%;
+    height: 5%;
+    padding-left: 20px;
+    margin-left: 10px;
+    background: transparent;
+    font-size: 20px;
+    border-radius: 5px;
+    
+
+}
+.counter-parent h1{
+    font-size: 40px;
+}
